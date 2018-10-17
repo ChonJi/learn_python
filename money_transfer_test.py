@@ -25,4 +25,5 @@ class MoneyTransferTest(unittest.TestCase):
 
 
     def tearDown(self):
-        self.browser.close()
+        browser = self.browser
+        browser.close()
